@@ -39,6 +39,11 @@ installvim()
     echo " [CONFIG]  vim copy-config complete"
 }
 
+installjava()
+{
+
+}
+
 installst2()
 {
     # TODO Install
@@ -54,4 +59,4 @@ initialize
 installzsh
 installvim
 installst2
-solarize()
+solarize

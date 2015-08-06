@@ -11,6 +11,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Init java environment
+export JDK_HOME="/usr/bin/jdk1.8.0_51"
+
 source ~/Documents/github/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -30,3 +33,7 @@ antigen theme arrow
 
 # Tell antigen that you're done.
 antigen apply
+
+# Aliases
+alias subl='/opt/sublime_text/sublime_text'
+alias node='nodejs'
